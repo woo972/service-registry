@@ -1,0 +1,13 @@
+server:
+  port: 9720
+
+spring:
+  application:
+    name: service-registry
+
+# eureka server 스스로를 discovery service에 등록하지 않는다
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
